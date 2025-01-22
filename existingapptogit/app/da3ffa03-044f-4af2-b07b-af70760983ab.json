@@ -1,0 +1,457 @@
+{
+  "pageDefinitionId" : "da3ffa03-044f-4af2-b07b-af70760983ab",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_1" : {
+            "type" : "table",
+            "controlId" : "909852ad-323d-4f1f-b9e0-d67fd8c21f12",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "909852ad-323d-4f1f-b9e0-d67fd8c21f12",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "entertainment",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "movie_title",
+              "name" : "movie_title",
+              "headerName" : "movie_title",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "genre",
+              "name" : "genre",
+              "headerName" : "genre",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "release_date",
+              "name" : "release_date",
+              "headerName" : "release_date",
+              "dataType" : "date",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "rating",
+              "name" : "rating",
+              "headerName" : "rating",
+              "dataType" : "decimal",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "director",
+              "name" : "director",
+              "headerName" : "director",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "actor_1",
+              "name" : "actor_1",
+              "headerName" : "actor_1",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "actor_2",
+              "name" : "actor_2",
+              "headerName" : "actor_2",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "actor_3",
+              "name" : "actor_3",
+              "headerName" : "actor_3",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "box_office_revenue",
+              "name" : "box_office_revenue",
+              "headerName" : "box_office_revenue",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "budget",
+              "name" : "budget",
+              "headerName" : "budget",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "language",
+              "name" : "language",
+              "headerName" : "language",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "country",
+              "name" : "country",
+              "headerName" : "country",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "runtime_minutes",
+              "name" : "runtime_minutes",
+              "headerName" : "runtime_minutes",
+              "dataType" : "integer",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "awards",
+              "name" : "awards",
+              "headerName" : "awards",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "sequel",
+              "name" : "sequel",
+              "headerName" : "sequel",
+              "dataType" : "boolean",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "franchise",
+              "name" : "franchise",
+              "headerName" : "franchise",
+              "dataType" : "boolean",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "soundtrack",
+              "name" : "soundtrack",
+              "headerName" : "soundtrack",
+              "dataType" : "boolean",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "special_effects_company",
+              "name" : "special_effects_company",
+              "headerName" : "special_effects_company",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "cinematographer",
+              "name" : "cinematographer",
+              "headerName" : "cinematographer",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "costume_designer",
+              "name" : "costume_designer",
+              "headerName" : "costume_designer",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "makeup_artist",
+              "name" : "makeup_artist",
+              "headerName" : "makeup_artist",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "stunt_cordinator",
+              "name" : "stunt_cordinator",
+              "headerName" : "stunt_cordinator",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "visual_effects_supervisor",
+              "name" : "visual_effects_supervisor",
+              "headerName" : "visual_effects_supervisor",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "production_designer",
+              "name" : "production_designer",
+              "headerName" : "production_designer",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "film_editor",
+              "name" : "film_editor",
+              "headerName" : "film_editor",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "screenwriter",
+              "name" : "screenwriter",
+              "headerName" : "screenwriter",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "film_festival",
+              "name" : "film_festival",
+              "headerName" : "film_festival",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "whereClauseVariable" : null,
+            "variables" : [ ],
+            "table" : "grid",
+            "title" : "",
+            "maxHeight" : null,
+            "shouldRenderHidden" : false,
+            "multiSelectEnabled" : true,
+            "showRowCount" : true
+          },
+          "control_2" : {
+            "type" : "list",
+            "controlId" : "5230925b-6047-4d52-baf1-cb88b7c0bbd8",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "5230925b-6047-4d52-baf1-cb88b7c0bbd8",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "EntertainmentData",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ {
+              "field" : "entertainment_id",
+              "name" : "entertainment_id",
+              "headerName" : "entertainment_id",
+              "dataType" : "integer",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "movie_title",
+              "name" : "movie_title",
+              "headerName" : "movie_title",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "genre",
+              "name" : "genre",
+              "headerName" : "genre",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "release_date",
+              "name" : "release_date",
+              "headerName" : "release_date",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "director_name",
+              "name" : "director_name",
+              "headerName" : "director_name",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "rating",
+              "name" : "rating",
+              "headerName" : "rating",
+              "dataType" : "decimal",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "director",
+              "name" : "director",
+              "headerName" : "director",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$id",
+              "name" : "$id",
+              "headerName" : "$id",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$version",
+              "name" : "$version",
+              "headerName" : "$version",
+              "dataType" : "integer",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$created_by",
+              "name" : "$created_by",
+              "headerName" : "$created_by",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$created_instant",
+              "name" : "$created_instant",
+              "headerName" : "$created_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$modified_by",
+              "name" : "$modified_by",
+              "headerName" : "$modified_by",
+              "dataType" : "string",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            }, {
+              "field" : "$modified_instant",
+              "name" : "$modified_instant",
+              "headerName" : "$modified_instant",
+              "dataType" : "instant",
+              "editable" : false,
+              "isPrimaryKey" : false,
+              "formattingStyle" : "default",
+              "sortable" : false
+            } ],
+            "whereClauseVariable" : null,
+            "maxHeight" : null,
+            "shouldRenderHidden" : false,
+            "variables" : [ ],
+            "selectedField" : "",
+            "selectedVariable" : "",
+            "multiSelectEnabled" : true,
+            "showRowCount" : true
+          }
+        }
+      }
+    }
+  },
+  "title" : "newpage",
+  "versionName" : "1.0"
+}
