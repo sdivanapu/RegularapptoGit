@@ -1,0 +1,20 @@
+{
+  "applicationId" : "be0e22f1-dcc6-48af-8ce9-ce2c4e010ecb",
+  "applicationName" : "checkchecknew",
+  "icon" : "LogoIconOnlyCommissionExpenseAccountingComponent",
+  "sections" : [ {
+    "name" : "newsection",
+    "icon" : "Alert Circle",
+    "pageDefinitionId" : "259f6178-7a3e-4203-9e49-aeeefac0335d",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  } ],
+  "accessRoles" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/sdivanapu/RegularapptoGit",
+  "defaultBranch" : "main",
+  "gitSubpath" : "Regularapptogit",
+  "applicationI18nFiles" : [ ]
+}
