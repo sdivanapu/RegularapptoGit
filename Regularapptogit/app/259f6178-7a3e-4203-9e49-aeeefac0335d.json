@@ -1,0 +1,63 @@
+{
+  "pageDefinitionId" : "259f6178-7a3e-4203-9e49-aeeefac0335d",
+  "pageSchema" : {
+    "properties" : { },
+    "controlSchema" : {
+      "schema" : {
+        "type" : "object",
+        "properties" : {
+          "control_1" : {
+            "type" : "dropdown",
+            "controlId" : "8039a36d-fed7-43b8-b8be-78b6548e629c",
+            "accessRoles" : null,
+            "privileges" : null,
+            "styles" : {
+              "useComponentShadow" : false,
+              "useGreyBackground" : false,
+              "useInnerGreyBackground" : false
+            },
+            "events" : [ {
+              "name" : "$onPageLoad",
+              "eventSelection" : "BIND_EVENT",
+              "id" : "8039a36d-fed7-43b8-b8be-78b6548e629c",
+              "handlers" : [ "refresh" ],
+              "handlerArgs" : [ { } ],
+              "preHandlers" : [ ],
+              "preHandlerArgs" : [ ]
+            } ],
+            "datasource" : {
+              "name" : "AddressInfo",
+              "type" : "table",
+              "isReadOnly" : false,
+              "schema" : "$framework",
+              "seriesColors" : { }
+            },
+            "pagination" : {
+              "currentPage" : 1,
+              "totalItems" : null,
+              "itemsPerPage" : 200
+            },
+            "columns" : [ ],
+            "whereClauseVariable" : null,
+            "variables" : [ ],
+            "isMultiSelect" : false,
+            "shouldHideLabel" : false,
+            "displayField" : {
+              "dataType" : "string",
+              "name" : "name"
+            },
+            "valueField" : {
+              "dataType" : "string",
+              "name" : "addressline1"
+            },
+            "labelText" : "Label",
+            "layoutSize" : null,
+            "shouldRenderHidden" : false
+          }
+        }
+      }
+    }
+  },
+  "title" : "newpage",
+  "versionName" : "1.0"
+}
