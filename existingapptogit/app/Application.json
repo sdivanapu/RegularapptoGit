@@ -1,0 +1,20 @@
+{
+  "applicationId" : "b8948828-aa7b-4158-8012-96efc18974fa",
+  "applicationName" : "Gridbug",
+  "icon" : "LogoIconOnlyConnectComponent",
+  "sections" : [ {
+    "name" : "newsection",
+    "icon" : "Alert Circle",
+    "pageDefinitionId" : "da3ffa03-044f-4af2-b07b-af70760983ab",
+    "description" : "",
+    "sections" : [ ],
+    "accessRoles" : null,
+    "privileges" : null
+  } ],
+  "accessRoles" : [ ],
+  "applicationState" : "DRAFT",
+  "gitUrl" : "https://github.com/sdivanapu/RegularapptoGit",
+  "defaultBranch" : "main",
+  "gitSubpath" : "existingapptogit",
+  "applicationI18nFiles" : [ ]
+}
